@@ -4,3 +4,15 @@ Medidas relativas>>> Porcentaje: confijura el tamaño relativo al elemento padre
                      em: unidad relativa al tamaño de fuenre especific
                      rem: unidad relativa al tamaño de fuente especificada en el ancestro mas lejano.
                      vw / vh :unidad relativa porcentual con respecto al viewport.
+Media queries>>> @media media type and (condicion){}
+                 @media screen and (max-width: 768px){} `Todas las pantallas inferiores a 768px de ancho cumplen esta funcion.
+                 Mobile First
+                 @media screen and (min-width: 320px){}
+                 @media screen and (min-width: 480px){}
+                 @media screen and (min-width: 768px){}
+                 @media screen and (min-width: 1024px){}
+                 Desktop First
+                 @media screen and (max-width: 1024px){}
+                 @media screen and (min-width: 768px){}
+                 @media screen and (min-width: 480px){}
+                 @media screen and (min-width: 320px){}

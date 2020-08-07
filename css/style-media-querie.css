@@ -1,5 +1,5 @@
-@media screen and (max-widht: 1024px){
+@media screen and (min-widht: 768px){
     body{
-        background-color: aqua;
+        background-color: black;
     }
 }

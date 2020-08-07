@@ -1,5 +1,7 @@
 @media screen and (min-widht: 768px){
-    body{
+    .container{
         background-color: black;
+        width: 500px;
+        height: 500px;
     }
 }

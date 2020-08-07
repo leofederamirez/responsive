@@ -1,2 +1,6 @@
 <Meta etiqueta>  name="viewport" content="width=device-width, initial-scale=1.0"
     SIRVE PARA ADAPTACE A LA PANTALLA.
+Medidas relativas>>> Porcentaje: confijura el tamaño relativo al elemento padre.
+                     em: unidad relativa al tamaño de fuenre especific
+                     rem: unidad relativa al tamaño de fuente especificada en el ancestro mas lejano.
+                     vw / vh :unidad relativa porcentual con respecto al viewport.

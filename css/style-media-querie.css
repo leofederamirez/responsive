@@ -1,7 +1,19 @@
-@media screen and (min-widht: 768px){
-    .container{
-        background-color: black;
-        width: 500px;
-        height: 500px;
-    }
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 2px red;
+    padding: 7px;
+    display: flex;
 }
+.box{
+    border: solid 2px blue;
+    padding: 5px;
+    margin: 10px;
+}
+  @media only screen and (max-width: 768px) {
+    .container{
+      display: block;
+    }
+    .box-2, .box-3{
+        width: 50%;
+    }
+  }

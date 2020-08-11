@@ -1,3 +1,7 @@
+body{
+    max-width: 1920px;
+    margin: auto;
+}
 nav{
     border: solid 2px red;
     display: flex;
@@ -27,8 +31,24 @@ nav{
     padding: 5px;
     margin: 10px;
 }
-.box-4{
+.box-4, .box-3-img{
     display: none;
+}
+.container-2{
+    border: solid 2px red;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-width: 320px;
+}
+.box-img{
+    border: solid 2px green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
 }
 @media only screen and (max-width: 768px) {
     .container{
@@ -41,6 +61,12 @@ nav{
     .box-3{
         grid-column: 2/3;
         grid-row: 2/4;
+    }
+    .box-3-img{
+        border: solid 2px green;
+        margin: 5px;
+        display: block;
+        height: 200px;
     }
     .box-4{
         display: block;

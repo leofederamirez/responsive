@@ -10,6 +10,9 @@ nav{
     min-width: 320px;
     text-shadow: 1px 1px 2px black;
 }
+button{
+    display: none;
+}
 .titular, .menu{
     border: solid 2px blue;
     margin-left: 10px;
@@ -50,6 +53,10 @@ nav{
     border-radius: 100%;
     margin: 10px;
 }
+.showHide{
+    display: flex;
+    flex-direction: column;
+}
 @media only screen and (max-width: 768px) {
     .container{
       display: grid;
@@ -84,5 +91,11 @@ nav{
       .container{
          display: flex;
          flex-wrap: wrap;
+      }
+      .menu{
+          display: none;
+      }
+      button{
+          display: block;
       }
 }

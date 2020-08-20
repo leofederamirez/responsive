@@ -16,3 +16,15 @@ Media queries>>> @media media type and (condicion){}
                  @media screen and (min-width: 768px){}
                  @media screen and (min-width: 480px){}
                  @media screen and (min-width: 320px){}
+Hay 3 maneras de llamamr a los media queries>>> (1) <style></style>
+                                                (2) <link rel="stylesheet" href="./css/style-media-querie.css">
+                                                (3) <link rel="stylesheet" href="queries.css" media="screen and (min-whidth:768ox)/>
+CSS Positions
+
+static: es la propiedad por defecto.
+Con las otras opciones, se activan las propiedades de top, bottom, left, right y z-index.
+
+relative: el objeto se mueve en base al lugar donde se encuentra originalmente.
+absolute: el objeto se ubica de manera absoluta con el elemento más cercano que tenga posición relativa o con el body.
+fixed: El elemento se muestra de manera fija en el viewport.
+sticky: El elemento se queda de manera fija una vez que aparece en pantalla.

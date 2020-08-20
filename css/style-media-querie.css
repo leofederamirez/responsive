@@ -1,3 +1,8 @@
+body{
+    max-width: 1920px;
+    margin: auto;
+    box-sizing: border-box;
+}
 nav{
     border: solid 2px red;
     display: flex;
@@ -6,10 +11,12 @@ nav{
     min-width: 320px;
     text-shadow: 1px 1px 2px black;
 }
-.titular, .menu{
+button{
+    display: none;
+}
+.titular{
     border: solid 2px blue;
     margin-left: 10px;
-    flex: auto;
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
@@ -27,8 +34,28 @@ nav{
     padding: 5px;
     margin: 10px;
 }
-.box-4{
+.box-4, .box-3-img{
     display: none;
+}
+.container-2{
+    border: solid 2px red;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-width: 320px;
+}
+.box-img{
+    border: solid 2px green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px;
+}
+.showHide{
+    display: flex;
+    flex-direction: column;
 }
 @media only screen and (max-width: 768px) {
     .container{
@@ -41,6 +68,12 @@ nav{
     .box-3{
         grid-column: 2/3;
         grid-row: 2/4;
+    }
+    .box-3-img{
+        border: solid 2px green;
+        margin: 5px;
+        display: block;
+        height: 200px;
     }
     .box-4{
         display: block;
@@ -58,5 +91,11 @@ nav{
       .container{
          display: flex;
          flex-wrap: wrap;
+      }
+      .menu{
+          display: none;
+      }
+      button{
+          display: block;
       }
 }

@@ -10,5 +10,6 @@ function showHide() {
         menu.classList.remove('showHide')
     } else{
         menu.classList.add('showHide')
+        menu.classList.remove('menu')
     }
 }

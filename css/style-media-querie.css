@@ -1,6 +1,7 @@
 body{
     max-width: 1920px;
     margin: auto;
+    box-sizing: border-box;
 }
 nav{
     border: solid 2px red;
@@ -13,10 +14,9 @@ nav{
 button{
     display: none;
 }
-.titular, .menu{
+.titular{
     border: solid 2px blue;
     margin-left: 10px;
-    flex: auto;
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
